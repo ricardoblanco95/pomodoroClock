@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FreeCodeCamp - Project 8: Build a Pomodoro Clock.</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!--FONTS-->
+<link href="https://fonts.googleapis.com/css?family=Audiowide|Poppins|Source+Code+Pro" rel="stylesheet">
+
+<!---->
+
+<div class='container-fluid'>
+  <h1>pomodoro-clock.</h1>
+  <div class='row'>
+    <div id='breakTitle' class="col-xs-6">
+      BREAK
+    </div>
+    <div id='workTitle' class="col-xs-6">
+      WORK
+    </div>
+  </div>
+  <div class='row'>
+    <div id='breakCount' class='col-xs-3' style='text-align:right'>
+      <span id='breakMin'>00</span>
+    </div>
+    <div id='breakCount' class='col-xs-3' style='text-align:left'>
+      <div class='btn-group'><span id='breakPlus'>+</span> <span id='slash'>/</span> <span id='breakMinus'>-</span></div>
+    </div>
+    <div id='breakCount' class='col-xs-3' style='text-align:right'>
+       <span id='workMin'>00</span>
+    </div>
+     <div id='breakCount' class='col-xs-3' style='text-align:left'>
+       <div class='btn-group'><span id='workPlus'>+</span> <span id='slash'>/</span> <span id='workMinus'>-</span></div>
+    </div>
+  </div>
+  <div style='text-align:center'>
+    <span id='start'> START </span> <span id='slashSr'>/</span>  <span id='reset'> RESET </span>
+  </div>
+  <h2 id='status'>---</h2>
+  <h2 id='timer'>00:00</h2>
+  <div id='progBar'></div>
+  <h2 id='author'>Designed by <a id='link' href='https://codepen.io/ricardoblancodias/full/EmEOVr/' target='_blank'>Ricardo Blanco</a></h2>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
